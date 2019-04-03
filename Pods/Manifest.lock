@@ -1,0 +1,30 @@
+PODS:
+  - CocoaLumberjack (3.5.2):
+    - CocoaLumberjack/Core (= 3.5.2)
+  - CocoaLumberjack/Core (3.5.2)
+  - SDWebImage/Core (5.0.0-beta6)
+  - SDWebImageSVGCoder (0.1.0):
+    - SDWebImage/Core (>= 5.0.0-beta3)
+    - SVGKit (>= 2.1)
+  - SVGKit (2.1.0):
+    - CocoaLumberjack (~> 3.0)
+
+DEPENDENCIES:
+  - SDWebImageSVGCoder
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+    - SDWebImage
+    - SDWebImageSVGCoder
+    - SVGKit
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 118bf4a820efc641f79fa487b75ed928dccfae23
+  SDWebImage: 2840a50a41156efccf460df67218b32029177897
+  SDWebImageSVGCoder: 4a76d483b2f8b416b6888c33422f581d1c90e340
+  SVGKit: 8a2fc74258bdb2abb54d3b65f3dd68b0277a9c4d
+
+PODFILE CHECKSUM: d47d5020280a1916ebfe13107356c7f8df400064
+
+COCOAPODS: 1.6.1
